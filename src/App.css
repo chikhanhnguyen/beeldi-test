@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'DIN-Next';
+  src: url('./assets/fonts/DIN-Next/DINNextW1G-UltraLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN-Next';
+  src: url('./assets/fonts/DIN-Next/DINNextW1G-Light.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN-Next';
+  src: url('./assets/fonts/DIN-Next/DINNextW1G-Regular.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN-Next';
+  src: url('./assets/fonts/DIN-Next/DINNextW1G-Medium.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN-Next';
+  src: url('./assets/fonts/DIN-Next/DINNextW1G-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN-Next';
+  src: url('./assets/fonts/DIN-Next/DINNextW1G-Heavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: 'DIN-Next', sans-serif;;
+  background-color: rgb(240 240 240);
+  font-size: 15px;
+  letter-spacing: .12px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+}
+
+.main {
+  background-color: rgb(240 240 240);
+}
