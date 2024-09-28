@@ -1,31 +1,40 @@
+# Démo
+
+https://myworld-e0h7d2bubmfzghc0.francecentral-01.azurewebsites.net/
+
 # Introduction
 
-React - redux/saga - frontend project with mocked backend.
+Projet frontend React - redux/saga avec un backend simulé.
 
-[ReduxDataFlowDiagram](https://redux.js.org/assets/images/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif)
-# Run
+### Schéma de flux de données Redux
 
-1/ npm install
+![ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26](https://github.com/user-attachments/assets/2c4c3304-5862-4237-bfd3-9dc58d8716e6)
 
-2/ npm start
+# Exécution
 
-# Deployment
+1. ```npm install```
 
-1/ npm run build
+2. ```npm start```
 
-2/ deploy to Azure web service using Vscode
+# Déploiement
 
-Website online: https://myworld-e0h7d2bubmfzghc0.francecentral-01.azurewebsites.net/
+1. ```npm run build```
 
-# Les fonctionnalités de base du site web :
+2. Ensuite déployer sur le service Azure Application Web
 
-1/ Page d'accueil : ici, tous les équipements disponibles seront listés (par ordre
+# Les fonctionnalités de base
+
+**1. Page d'accueil** 
+
+Ici, tous les équipements disponibles seront listés (par ordre
 alphabétique), chaque équipement étant affiché sous forme de carte comprenant des
-informations de base : image, nom, domaine, nombre de défauts. En outre, sur cette
-carte, vous pouvez voir des informations supplémentaires telles que la marque, le bâtiment
+informations de base : _image, nom, domaine, nombre de défauts_. En outre, sur cette
+carte, on peut voir des informations supplémentaires telles que _la marque, le bâtiment_
 (par défaut, ces informations seront masquées pour éviter les distractions).
 
-2/ Page de détails : lorsque vous cliquez sur une carte d’équipement, vous serez dirigé vers
+**2. Page de détails** 
+
+Lorsqu'on clique sur une carte d’équipement, on sera dirigé vers
 cette page. Elle comprend les sections suivantes :
 - Affichage des informations complètes d’un équipement, les points de contrôle sont
 également listés.
@@ -38,11 +47,10 @@ Actuellement, les équipements ne sont pas encore classés par catégorie, mais 
 ajouté cette fonctionnalité pour une utilisation future si nous classons les
 équipements.
 - L'image principale de l'équipement sera zoomé lorsqu'on clique dessus.
-Actuellement, chaque équipement n'a qu'une seule image, mais j'ai programmé pour
-bien supporter la navigation entre plusieurs images.
 
-3/ Fonctionnalité de recherche :
-- La barre de recherche est toujours affichée dans la barre de navigation, cliquez sur
+**3. Fonctionnalité de recherche**
+
+- La barre de recherche est toujours affichée dans la barre de navigation, clique sur
 l'icône de recherche pour afficher plus d’informations.
 - Elle permet de rechercher par “nom, marque, domaine, bâtiment” (par défaut, la
 recherche se fait sur le “nom”), et il est très facile d'ajouter de nouveaux filtres dans
